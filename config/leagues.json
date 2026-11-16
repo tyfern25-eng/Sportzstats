@@ -2,28 +2,40 @@
   "_help": "Your leagues. Edit names, lineup slots and rosters here, or use 'Edit roster' on the website (that saves in your browser only). Slots: QB, RB, WR, TE, FLEX (RB/WR/TE), OP (superflex: QB/RB/WR/TE), D/ST, K.",
   "leagues": [
     {
-      "id": "league1",
-      "name": "League 1",
-      "team": "Fernfades Clubhouse",
+      "id": "ptc25",
+      "name": "PTC 25'",
+      "team": "Lil Gup Lover",
       "scoring": "PPR",
       "slots": ["QB", "RB", "RB", "WR", "WR", "TE", "FLEX", "D/ST", "K"],
-      "roster": []
+      "roster": [
+        "Tyler Shough", "Christian McCaffrey", "Ollie Gordon II", "Rashee Rice", "Parker Washington",
+        "Juwan Johnson", "Chase Brown", "Rams D/ST", "Will Reichard", "Ladd McConkey",
+        "Luther Burden III", "Blake Corum", "T.J. Hockenson", "Kirk Cousins", "Michael Wilson"
+      ]
     },
     {
-      "id": "league2",
-      "name": "League 2",
-      "team": "",
+      "id": "empire",
+      "name": "The Empire Strikes Back",
+      "team": "Fernfades",
       "scoring": "PPR",
       "slots": ["QB", "RB", "RB", "WR", "WR", "TE", "FLEX", "D/ST", "K"],
-      "roster": []
+      "roster": [
+        "Brock Purdy", "James Cook III", "Ollie Gordon II", "Matthew Golden", "Drake London",
+        "Harold Fannin Jr.", "Ashton Jeanty", "Jaguars D/ST", "Spencer Shrader", "Jaylen Waddle",
+        "Tony Pollard", "Jalen Coker", "Kyler Murray", "Juwan Johnson", "Caleb Douglas", "Chiefs D/ST"
+      ]
     },
     {
-      "id": "league3",
-      "name": "League 3",
-      "team": "",
+      "id": "shweps",
+      "name": "Bitter shweps",
+      "team": "Raul",
       "scoring": "PPR",
       "slots": ["QB", "RB", "RB", "WR", "WR", "TE", "FLEX", "D/ST", "K"],
-      "roster": []
+      "roster": [
+        "Dak Prescott", "James Cook III", "Zach Charbonnet", "Drake London", "Ladd McConkey",
+        "Tucker Kraft", "Javonte Williams", "Seahawks D/ST", "Spencer Shrader", "Luther Burden III",
+        "David Montgomery", "Josh Downs", "Kyler Murray", "49ers D/ST", "Jordan Mason", "Adonai Mitchell"
+      ]
     }
   ]
 }
