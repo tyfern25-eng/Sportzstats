@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sportzstats</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="logo">SZ</span>
+      <div>
+        <h1>Sportzstats</h1>
+        <p id="updated" class="muted">Loading data…</p>
+      </div>
+    </div>
+    <div class="week-pick">
+      <label for="week">Week</label>
+      <select id="week"></select>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button data-tab="teams" class="active">My Teams</button>
+    <button data-tab="players">Players</button>
+    <button data-tab="defenses">Defenses</button>
+    <button data-tab="blitz">QB vs Blitz</button>
+    <button data-tab="model">How it works</button>
+  </nav>
+
+  <main>
+    <section id="tab-teams" class="tab active"></section>
+    <section id="tab-players" class="tab"></section>
+    <section id="tab-defenses" class="tab"></section>
+    <section id="tab-blitz" class="tab"></section>
+    <section id="tab-model" class="tab"></section>
+  </main>
+
+  <div id="modal" class="modal hidden" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true">
+      <button class="close" id="modal-close" aria-label="Close">×</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
